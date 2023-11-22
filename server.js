@@ -5,7 +5,7 @@ const res = require("express/lib/response");
 const req = require("express/lib/request");
 
 const URI =
-  "mongodb+srv://harshgaur838:5aoXi6X4Zo23HZoc@cluster0.pqj4z8j.mongodb.net/URLShortner?retryWrites=true&w=majority";
+  "mongodb+srv://***********************";
 
 mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true });
 const app = express();
